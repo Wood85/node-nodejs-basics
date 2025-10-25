@@ -1,4 +1,4 @@
-import { cp, access, mkdir } from "fs/promises";
+import { cp, access } from "fs/promises";
 
 const copy = async () => {
   const rootPath = 'src/fs/';
